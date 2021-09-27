@@ -16,3 +16,6 @@ TO DO:
 
 1. Connect API for the State based on the zip code
 2. Form validation
+
+
+Where our setup will lay: https://ethos-form-recreate.pagedemo.co/
