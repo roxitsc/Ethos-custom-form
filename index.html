@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethos Form</title>
+</head>
+
+<body>
+  <div>
+    <!-- estimate form -->
+    <form id="estimate" action="">
+      <div class="form-title">
+        <h2>Get your estimate in seconds.</h2>
+      </div>
+      <div class="form-group">
+        <label for="">Gender</label>
+        <div class="button-group">
+          <button type="button" role="radio">Female</button>
+          <button type="button" role="radio">Male</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="">Birthdate</label>
+        <input type="text">
+      </div>
+      <div class="form-group">
+        <label for="">Zip code</label>
+        <input type="number">
+      </div>
+      <div class="form-group">
+        <label for="">Health</label>
+        <div class="button-group">
+          <button type="button" role="radio">Average</button>
+          <button type="button" role="radio">Great</button>
+          <button type="button" role="radio">Excellent</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="">Nicotine use?</label>
+        <div class="button-group">
+          <button type="button" role="radio">Yes</button>
+          <button type="button" role="radio">No</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="credit">Estimated credit</label>
+        <select name="credit">
+          <option value="Low (below 670)">Low (below 670)</option>
+          <option value="High (740+)">High (740+)</option>
+          <option value="Average (670-739)">Average (670-739)</option>
+          <option value="I don't know">I don't know</option>
+        </select>
+      </div>
+      <div class="button-group">
+        <button type="submit">Continue</button>
+      </div>
+    </form>
+    <!-- results form -->
+    <form id="results" action="">
+      <div class="form-title">
+        <h2>Explore your options</h2>
+        <p>Adjust the coverage amount and term length to find a plan you like. Then apply online (with no obligations)
+          and get your real rate.</p>
+      </div>
+      <div class="col-6">
+        <h3>The estimated monthly rate for this policy is:</h3>
+      </div>
+      <div class="col-6">
+        <div>
+          <label for="">From</label>
+          <input type="text">
+        </div>
+        <div>
+          <label for="">To</label>
+          <input type="text">
+        </div>
+      </div>
+      <div class="col-6">
+        <label for="">Coverage amount</label>
+        <input type="text" value="$0">
+        <input type="radio" name="" id="">
+      </div>
+      <div class="col-6">
+        <label for="">Term length</label>
+        <input type="text" value="0 years">
+        <input type="radio" name="" id="">
+      </div>
+      <div class="button-group">
+        <button type="button">Save estimates</button>
+        <button type="submit">Get my real rate</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
